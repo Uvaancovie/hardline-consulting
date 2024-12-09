@@ -1,9 +1,12 @@
 "use client";
 
+import Navbar from "@/components/Navbar";
+
 const AboutPage = () => {
   return (
-    <div className="min-h-screen bg-white text-black py-12 px-6">
-      <div className="max-w-4xl mx-auto">
+    <div className="min-h-screen bg-white text-black">
+      <Navbar />
+      <div className="py-12 px-6 max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-6">About Us</h1>
         <p className="text-lg leading-relaxed">
           At Hardline Consulting, we specialize in sourcing and acquiring
