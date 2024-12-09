@@ -1,0 +1,36 @@
+body {
+    scroll-snap-type: y mandatory;
+    margin: 0;
+    padding: 0;
+    background-color: #0f1115;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  section {
+    scroll-snap-align: start;
+  }
+  
+  .progress {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: yellow;
+    bottom: 50px;
+    transform: scaleX(0);
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    line-height: 1.2;
+    color: #fff312;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
